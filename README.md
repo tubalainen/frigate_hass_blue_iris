@@ -1,4 +1,4 @@
-# Frigate - Home Assistant - Blue Iris NVR automation example**
+**Frigate - Home Assistant - Blue Iris NVR automation example**
 
 # The basics:
 By using https://github.com/blakeblackshear/frigate and Home Assistant to send real detections not only "motion detection" events via HTTP to trigger Blue Iris to start recording (create clips).
