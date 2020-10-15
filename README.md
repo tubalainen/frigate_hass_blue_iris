@@ -1,7 +1,7 @@
 # Frigate - Home Assistant - Blue Iris NVR automation example
 
 **The basics:**
-By using https://github.com/blakeblackshear/frigate and Home Assistant to send real detections not only "motion detection" events via HTTP to trigger Blue Iris to start recording (create clips).
+By using https://github.com/blakeblackshear/frigate and Home Assistant to send real detections not only "motion detection" events via HTTP to trigger Blue Iris to start recording (create clips). This will greatly reduce false positives.
 
 **The Blue Iris VMS - And Local AI to detect "person" or other objects**
 Blue Iris is a normal "dumb" NVR/VMS software that records several camera RTSP streams and present it to an API and a number of user interfaces. There isnt any great local AI features built in, it normally triggers motion based on "motion detection" (that would be considered somewhat advanced). There´s a lot of false positives causing the NVR event recording to be somehwat useless. Yes, I know, there are several ways to tweak and fix this to lessen the false positives.
